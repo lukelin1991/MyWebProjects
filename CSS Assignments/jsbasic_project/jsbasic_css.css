@@ -53,8 +53,7 @@
 
 a, ul, li{
   color: lightblue;
-}
-
-#x{
-  color: blue;
+  .color{
+    color: blue;
+  }
 }
