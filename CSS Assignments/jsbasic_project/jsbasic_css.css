@@ -1,0 +1,60 @@
+#Container{
+  background-color: #1B335D;
+    height: 760px;
+    width: 970px;
+    padding: 10px;
+}
+#HeadTitle{
+  background-color:#cc0000;
+  color: lightblue;
+  display: inline-block;
+  border-radius: 10px;
+  height: 80px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  width: 960px;
+  vertical-align: top;
+}
+.MainContent{
+  color: lightblue;
+  background-color: black;
+  display:inline-block;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+  height: 580px;
+  width: 710px;
+  float: right;
+  text-align: justify;
+
+}
+#SideBar{
+  color: lightblue;
+  background-color: teal;
+  display: block;
+  border-radius: 10px;
+  height: 300px;
+  width: 200px;
+  margin-right: 10px;
+  margin-top: 10px;
+  vertical-align: top;
+  padding-left: 20px;
+}
+#Footer{
+  color: lightblue;
+  background-color: grey;
+  display: inline-block;
+  border-radius: 10px;
+  vertical-align: bottom;
+  width: 960px;
+  padding-left: 15px;
+}
+
+a, ul, li{
+  color: lightblue;
+}
+
+#x{
+  color: blue;
+}

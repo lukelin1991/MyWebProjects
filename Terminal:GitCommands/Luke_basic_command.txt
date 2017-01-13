@@ -1,0 +1,105 @@
+[13:06:27] desktop
+// ♥ mkdir basic_repo
+[13:07:01] desktop
+// ♥ cd basic_repo
+[13:07:05] basic_repo
+// ♥ ls
+[13:07:06] basic_repo
+// ♥ touch basic.html
+[13:07:17] basic_repo
+// ♥ touch stuff.css
+[13:07:25] basic_repo
+// ♥ touch basic_repo.txt
+[13:07:39] basic_repo
+// ♥ ls
+basic.html	basic_repo.txt	stuff.css
+[13:07:40] basic_repo
+// ♥ git init
+Initialized empty Git repository in /Users/ljlin/Desktop/basic_repo/.git/
+[13:08:12] basic_repo
+// ♥ ls
+basic.html	basic_repo.txt	stuff.css
+[13:08:15] basic_repo
+// ♥ git add .
+[13:08:19] basic_repo
+// ♥ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   basic.html
+	new file:   basic_repo.txt
+	new file:   stuff.css
+
+[13:08:21] basic_repo
+// ♥ git commit -m "added files"
+[master (root-commit) 4d3b9dc] added files
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 basic.html
+ create mode 100644 basic_repo.txt
+ create mode 100644 stuff.css
+[13:08:28] (master) basic_repo
+// ♥ cd ..
+[13:08:48] desktop
+// ♥ touch git_command.txt
+[13:09:00] desktop
+// ♥ rm git_command.txt
+[13:09:44] desktop
+// ♥ touch Luke_basic_command.txt
+[13:10:03] desktop
+// ♥ open Luke_basic_command.txt
+[13:10:16] desktop
+// ♥ [13:11:34] (master) basic_repo
+// ♥ git remote add origin https://github.com/lukelin1991/basic_repo.git
+[13:12:20] (master) basic_repo
+// ♥ git push -u origin master
+Username for 'https://github.com': lukelin1991
+Password for 'https://lukelin1991@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 467 bytes | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/lukelin1991/basic_repo.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+[13:12:36] (master) basic_repo
+// ♥ git branch
+* master
+[13:13:07] (master) basic_repo
+
+[13:13:07] (master) basic_repo
+// ♥ open basic_repo.txt
+[13:14:11] (master) basic_repo
+// ♥ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+[13:14:34] (master) basic_repo
+// ♥ git add .
+[13:14:37] (master) basic_repo
+// ♥ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   basic_repo.txt
+
+[13:14:42] (master) basic_repo
+// ♥ git commit -m "added line in basic_repo.txt"
+[master e529c33] added line in basic_repo.txt
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+[13:14:55] (master) basic_repo
+// ♥ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 386 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/lukelin1991/basic_repo.git
+   52a239a..e529c33  master -> master
+[13:15:28] (master) basic_repo
