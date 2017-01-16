@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#Main_Container{
+  display: block;
+  width: 880px;
+}
+
+#Top_Container{
+  display: block;
+  width: 880px;
+  height: 100px;
+  padding: 10px 10px;
+  margin: 10px 0px 10px 10px;
+  background: linear-gradient(#e6e6e6, #ffffff,#e6e6e6);
+}
+.data_nametag{
+  width: 150px;
+  height: 80px;
+  display: inline-block;
+}
+h3{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 0px 0px 360px;
+  padding: 0px 0px 0px 0px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 5px;
+  width: 880px;
+  text-align: center;
+}
+#Top_Nav{
+  display: inline-block;
+  margin-left: 10px;
+}
+.table{
+}
+.last{
+  width: 500px;
+}
+
+#Center_Container{
+  display:inline-block;
+  width: 880px;
+  background: radial-gradient(#ffb3cc,#4d004d,#0a001a);
+}
+#database_words_pic{
+  width: 440px;
+  padding: 10px 10px 10px 10px;
+  background-color: #bfbfbf;
+  margin: 15px 15px 15px 15px;
+  display: inline-block;
+}
+.top_left_pic{
+  width: 440px;
+  vertical-align: middle;
+  height: 200px;
+  display: inline-block;
+}
+
+#database_structured{
+  width: 420px;
+  background-color: #bfbfbf;
+  margin: 15px 15px 15px 15px;
+  height: 200px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+h4{
+  background: linear-gradient(#ffffff,#808080,#ffffff);
+  height: 30px;
+  padding: 5px 0px 5px 10px;
+}
