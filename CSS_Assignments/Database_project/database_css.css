@@ -6,12 +6,12 @@
 
 #Main_Container{
   display: block;
-  width: 880px;
+  width: 970px;
 }
 
 #Top_Container{
   display: block;
-  width: 880px;
+  width: 970px;
   height: 100px;
   padding: 10px 10px;
   margin: 10px 0px 10px 10px;
@@ -24,20 +24,19 @@
 }
 h3{
   display: inline-block;
-  vertical-align: middle;
-  margin: 0px 0px 0px 360px;
-  padding: 0px 0px 0px 0px;
+  margin-left: 420px;
+  position: absolute;
+  top: 50px;
 }
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   border-spacing: 5px;
-  width: 880px;
+  width: 970px;
   text-align: center;
 }
 #Top_Nav{
   display: inline-block;
-  margin-left: 10px;
 }
 .table{
 }
@@ -46,35 +45,82 @@ table, th, td {
 }
 
 #Center_Container{
-  display:inline-block;
-  width: 880px;
+  width: 970px;
   background: radial-gradient(#ffb3cc,#4d004d,#0a001a);
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  margin-left: 10px;
 }
 #database_words_pic{
-  width: 440px;
+  width: 470px;
   padding: 10px 10px 10px 10px;
   background-color: #bfbfbf;
-  margin: 15px 15px 15px 15px;
+  margin: 15px 0px 15px 15px;
   display: inline-block;
 }
 .top_left_pic{
-  width: 440px;
+  width: 470px;
   vertical-align: middle;
-  height: 200px;
+  height: 230px;
   display: inline-block;
 }
-
 #database_structured{
-  width: 420px;
+  width: 430px;
   background-color: #bfbfbf;
   margin: 15px 15px 15px 15px;
-  height: 200px;
+  height: 240px;
   vertical-align: top;
   display: inline-block;
+  padding: 0px 0px 10px 0px;
 }
-
 h4{
   background: linear-gradient(#ffffff,#808080,#ffffff);
-  height: 30px;
+  height: 20px;
   padding: 5px 0px 5px 10px;
+}
+.database{
+  padding: 5px 5px 5px 5px;
+}
+
+#small_text{
+  color: #6600cc;
+  vertical-align: middle;
+  padding-left: 820px;
+}
+#tiny_pic{
+  width: 10px;
+}
+.bottom_boxes{
+  width: 225px;
+  display: inline-block;
+  background-color: gray;
+  vertical-align: top;
+  height: 450px;
+  margin-left: 10px;
+  background: linear-gradient(#8691a7, #fefefe)
+
+}
+
+.small_pic{
+  width: 225px;
+  height: 115px;
+}
+.read_more{
+  color: white;
+  vertical-align: bottom;
+  background: #5c729c;
+  padding: 5px 10px 5px 10px;
+  border: solid black 3px;
+  border-radius: 5px;
+  margin-left: 100px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.button1, .button2, .button3, .button4{
+  position: absolute;
+  bottom: -170px;
 }
