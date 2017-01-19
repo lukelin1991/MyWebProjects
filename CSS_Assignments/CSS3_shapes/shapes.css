@@ -1,0 +1,40 @@
+#square{
+  width: 140px;
+  height: 140px;
+  background: blue;
+  margin-bottom: 20px;
+}
+
+#circle{
+  background: blue;
+  width: 0px;
+  height: 0px;
+  border: 100px solid blue;
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+#up_triangle{
+  width: 0;
+ height: 0;
+ border-left: 75px solid transparent;
+ border-right: 75px solid transparent;
+ border-bottom: 150px solid blue;
+ margin-bottom: 20px;
+}
+
+#pacman{
+  /*the inline-block provides a limiter for the shape*/
+  display: inline-block;
+  /* the border provides "how big" the shape is, we create a solid color through "solid blue"*/
+  border: 100px solid blue;
+  /*i'm assuming the border has 4 sizes, top, right, bottom, left idea..
+  so with the RGBA the A being Alpha (AKA opacity), we set it at 0 to block the right side from
+  showing ANYTHING (border wise) and we color it white to set the shape taken out. */
+  border-right-color: rgba(255,255,255,0);
+  color: white;
+  /*border radius is to curve out the outer edges of the shape */
+  border-radius: 100px;
+  margin-top: 20px;
+}

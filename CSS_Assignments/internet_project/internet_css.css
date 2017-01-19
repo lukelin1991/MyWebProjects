@@ -1,0 +1,227 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:sans-serif;
+}
+/* Learning how to comment... colors are going to be put here */
+.color_darkblue{
+  color: #22659e;
+}
+.color_lightblue{
+  color: #6bd0ff;
+}
+/* special case for color white.. because majority of them were buttons*/
+.color_white{
+  color: white;
+  text-decoration: none;
+}
+.color_red{
+  color: #d9231c;
+}
+
+#wrapper{
+  width: 970px;
+  margin-top: -10px;
+}
+/* This will be the top container */
+  h1{
+    padding-top: 30px;
+    padding-left: 95px;
+    padding-bottom: 5px;
+    font-size: 45px;
+    font-weight: 500;
+  }
+  h2{
+    background: linear-gradient(#26689d, #5283a8, #26689d);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+  }
+  #globe{
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    height: 90px;
+    width: 90px;
+  }
+/* middle container */
+#main_body{
+  background: linear-gradient(#e4e4e7, #ffffff, #ffffff, #ffffff);
+  width: 970px;
+}
+/* left nav container*/
+  #left_nav{
+    padding-top: 25px;
+    padding-left: 5px;
+    width: 200px;
+    display: inline-block;
+  }
+    #left_nav_top{
+      border-bottom-color: gray;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      padding-bottom: 20px;
+    }
+    #resize{
+      font-size: 15px;
+    }
+      #ad{
+        background-image: url(./images/ad_background.png);
+        text-align: center;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        margin-top: 20px;
+        box-shadow: 2px 2px 5px black;
+      }
+      .ad_button{
+          margin: 0 auto;
+          border-radius: 5px;
+          padding-top: 7px;
+          padding-bottom: 7px;
+          width: 170px;
+          background: linear-gradient(#73d0df, #00c2df);
+          text-align: center;
+          display: inline-block;
+          text-decoration: none;
+          font-size: 12px;
+          font-weight: 500;
+      }
+      .arrow1{
+        opacity: 0.3;
+      }
+      .arrow2{
+        opacity: 0.6;
+      }
+
+      .blue_button{
+        background: linear-gradient(#26689f, #5283ad);
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 200px;
+        box-shadow: 2px 2px 2px grey;
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      .orange_button{
+        background: linear-gradient( #eaac53, #f07400);
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 200px;
+        box-shadow: 2px 2px 2px grey;
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      .reinvent{
+        color: white;
+        font-weight: 400;
+        display: inline-block;
+        font-size: 20px;
+      }
+      .ninjaman{
+          width: 80px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+/*This is the center body page (main chunk)*/
+
+#big_body{
+    width: 695px;
+    padding-left: 45px;
+    padding-right: 10px;
+    vertical-align: top;
+    display: inline-block;
+}
+/* Top bar of the main page w/ border on bottom (phone number, contact info, hours opened)*/
+#top_bar_main{
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+  .DNS{
+    display: inline-block;
+    padding-top: 10px;
+    vertical-align: top;
+    width: 430px;
+  }
+  #home{
+    width: 18px;
+    padding-top: 7px;
+    vertical-align: top;
+  }
+  #phone{
+    width: 45px;
+    padding-top: 10px;
+    vertical-align: top;
+    position: absolute;
+    left: 678px;
+    top: 130px;
+  }
+  .phone_number{
+    font-size: 24px;
+    font-weight:900;
+    text-decoration: none;
+  }
+  .tiny_text{
+    font-size: 10px;
+  }
+  #contact_info{
+    width: 170px;
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
+  }
+  #indent{
+    margin-left: 50px;
+  }
+/*this is the middle area for client server pic to separate main top and bottom (before html/css/js box)*/
+.clientserver_pic{
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 180px;
+}
+
+/* this is the bottom section of the main page */
+#bottom_box{
+  border-style: solid;
+  border-width: 5px;
+  border-color: #22659e;
+  border-bottom-width: 0px;
+  padding: 10px;
+  margin-top: 20px;
+}
+  #bottom_text{
+    width: 540px;
+    margin-left: 10px;
+    vertical-align: top;
+    display: inline-block;
+  }
+    #bottom_text h3{
+      margin-bottom: 5px;
+    }
+    .htmlcssjs{
+      width: 100px;
+    }
+    .here{
+      color: #6bd0ff;
+      text-decoration: none;
+    }
