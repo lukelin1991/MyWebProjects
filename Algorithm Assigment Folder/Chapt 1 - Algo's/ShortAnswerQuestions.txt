@@ -1,0 +1,61 @@
+What is source code?
+Source code is the code that is run by the computer to create the "magic" behind
+what the user see's.  It is the coding used to run computers/softwares/systems.
+
+What makes computers so “smart”, anyway?
+The programmers behind the computers are what makes them seem so smart.
+what makes them seem so smart, is also that they read things line by line.
+
+What is the purpose of a programming language?
+the purpose of a programming language is to give the programmer a method of communicating
+what he wants the computer to do, and how to go about doing it.
+
+What are 3 examples of programming languages? Why are there so many of these?
+Python, JavaScript, Fortran.  There are so many of these languages because throughout the years
+because we are always trying to make the "best way" to go about communicating
+to the computer more efficiently, to advance technology.
+
+What is a variable? Why are variables useful?
+variable is a type of "object" that you can place any data type into by giving it a label.
+variables are useful in a variety of ways, whether it is to collect data, compile data, or transfer data/recall data.
+
+What is the difference between a single-equals (=) and a double-equals (==)?
+(=) sets the variable to something.
+(==) tests the two variables (the left and right side).
+
+What is the difference between a double-equals (==) and a triple-equals (===)?
+(==) tests things.
+(===) is a strict comparison (without converting data types).
+
+Why does the developer console exist?
+to create and edit and adjust codes.
+
+When we talk about “conditional” statements, what does that mean? What is an example?
+conditional statements means "if a condition is met, this reaction will happen, and if that condition is NOT met
+then the said reaction will NOT happen"
+
+Why would we want FOR or WHILE loops in our source code?
+To keep from repeating a code manually (which for humans can be tedious).
+
+When would you use a WHILE loop, instead of a FOR loop?
+when we dont know how long we want to loop for.
+
+What is a function? Why would we use functions?
+function is a set of instructions that can be called upon at ANY TIME to save you the hassle
+of manually doing the instructions again.
+
+How many values can you receive back from a function? How many values can you send in?
+as many as you want, for both questions.
+
+What is an array? How many values does it hold?
+an array is a set of numbers inside [] brackets, kind of like a place holder and/or a cabinet with slots.
+it holds as many as you want to put in the array.
+
+What is a T-diagram and why should I know how to use one?
+T-diagrams are awesome to help assist you to go through a code line-by-line.
+and it keeps things organized when testing loops.
+
+What are the two ways to comment JS code? When would you use one versus the other?
+"//" is one way. "/* */" is another.
+// is for when you ONLY want to comment 1 line out.
+/* */ is for when you want to comment a whole BLOCK out.

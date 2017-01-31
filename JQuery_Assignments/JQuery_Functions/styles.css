@@ -1,0 +1,47 @@
+* {
+    font-family:sans-serif;
+    width: 970px;
+    margin: 0 auto;
+}
+
+article{
+    background: lightblue;
+    padding: 25px;
+    margin: 10px;
+}
+#naruto, #jackieChan, #saitama{
+    width: 250px;
+    margin 0 auto;
+    display: block;
+    vertical-align: middle;
+}
+
+.cookies{
+    background-color: yellowgreen;
+    border-radius: 5px;
+    border: 5px solid green;
+}
+.toggle1, .toggle2{
+    font-size: 18px;
+
+}
+.toggle2{
+    display:none;
+}
+button{
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  background-color: #E5E8E4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.yellow{
+  color:yellow;
+}
+.before-after-append .before .after .append{
+  display: inline-block;
+}
+#val-corp{
+    margin-top: 40px;
+}
