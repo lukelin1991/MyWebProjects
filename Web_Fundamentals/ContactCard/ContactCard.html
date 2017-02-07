@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="ContactCard.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input">
+        <div class="full">
+          <form action="" method="post">
+            <label for="first_name">First Name:<input id="first" type="text" name="first_name"></label>
+            <label for="last_name">Last Name:<input id="last" type="text" name="last_name"></label>
+          </form>
+        </div>
+        <div class="desc">
+          <p>Description:</p>
+          <textarea id="description" name="description" rows="8" cols="50"></textarea>
+          <button type="button" name="button">Add User</button>
+        </div>
+      </div>
+
+      <div id="CreateContactCard">
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+.container{
+  width: 970px;
+  margin: 0 auto;
+}
+.input{
+  width: 480px;
+  display: inline-block;
+  border: 2px solid black;
+}
+.full{
+  width:480px;
+  height: 100px;
+  display: inline-block;
+  margin-left: 10px;
+}
+  label{
+    display: block;
+    margin: 20px 0;
+    width: 480px;
+    vertical-align: top;
+  }
+  .card{
+    display: inline-block;
+    width: 450px;
+    height: 75px;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  .CardName{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .CardClick{
+    width: 450px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .CardDescription{
+    display: inline-block;
+    width:400px;
+    height: 75px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: left;
+  }
+.desc{
+  width: 480px;
+  margin-top: 50px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left:10px;
+}
+  button{
+    display: block;
+  }
+  .desc p, .desc button, .desc textarea{
+    margin-top: 20px;
+  }
+#CreateContactCard{
+  width: 450px;
+  height: 900px;
+  display: inline-block;
+  vertical-align: top;
+}

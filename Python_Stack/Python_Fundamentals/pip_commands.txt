@@ -1,0 +1,20 @@
+"Pip is the package manager we use in Python to install these modules.
+Installing third party modules is very simple,
+because pip does a great job at knowing which version of that package
+we need to match our Python version. "
+
+pip install Django - Installed Django onto the pip list.
+
+pip list - lists all the installed modules on pip.
+
+pip install Django (the 2nd time) - if a module has been installed, it will
+show that the requirements have been met.
+
+pip freeze - outputs installed packages in requirements format
+whereas pip list LISTS the installed packages.
+
+pip uninstall Django - does exactly as it says.. it uninstalls Django.
+
+pip show Django - checks to see whether Django is in the pip system or not.
+
+pip search Flask - searches a bunch of things that is within Flask.
