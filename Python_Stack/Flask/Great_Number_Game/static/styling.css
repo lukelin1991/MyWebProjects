@@ -1,0 +1,26 @@
+body{
+  width: 970px;
+  margin: 0 auto;
+}
+
+.box{
+  width: 220px;
+  height: 220px;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.big{
+  font-weight: bold;
+  text-transform: uppercase;
+}

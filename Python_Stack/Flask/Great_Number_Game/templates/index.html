@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Great Number Game</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="styling.css") }}">
+  </head>
+  <body>
+    <h1>Welcome to the Great Number Game!</h1>
+    <p>I am thinking of a number between 1 and 100</p>
+    <p>Can you guess what it is? Take a guess!</p>
+
+    {% if class_color != "green" %}
+      <form action="/result" method="post">
+        <input type="text" name="guess">
+        <input type="hidden" name="random_number" value="{{session['random_number']}}"
+        <input type="submit" value="Guess">
+      </form>
+    {% endif %}
+
+    <div class="box {{class_color}}">
+      {% if result %}
+        <p class="big">{{result}}</p>
+        <p> My Guess: {{the_guess}}</p>
+        <p>Computer's number: {{session['random_number']}}</p>
+        {% if class_color == "green" %}
+          <form action="/reset">
+            <button>Play Again!</button>
+          </form>
+        {% endif %}
+      {% endif %}
+    </div>
+
+  </body>
+</html>
