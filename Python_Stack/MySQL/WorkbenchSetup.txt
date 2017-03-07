@@ -1,0 +1,1 @@
+Open "MySQL Workbench CE" > MySQL Connections > Setup New Connection > Hostname: localhost (with password: "root"/ "") > Query: use ['databasename']
