@@ -1,0 +1,37 @@
+h1{
+  text-align: center;
+}
+
+#wraps{
+    border: 3px solid black;
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+    margin-left: 160px;
+
+}
+
+#push{
+    margin: 10px 0 0 200px;
+    height: 30px;
+    width: 75px;
+    background-color: cyan;
+    border: 1px solid black;
+}
+
+#top{
+    background-color: lightgreen;
+    border: 1px solid black;
+    width: 600px;
+    height: 70px;
+    text-align: center;
+}
+
+#results p a{
+    margin: 10px 0 0 200px;
+    height: 30px;
+    width: 75px;
+    background-color: cyan;
+    border: 1px solid black;
+    padding: 3px 3px 3px 3px;
+}

@@ -1,0 +1,21 @@
+body{
+    width: 970px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px 0px 2px 0px;
+    margin: 2px 0px 2px 0px;
+}
+
+#container{
+    width: 800px;
+    margin: 25px auto;
+}

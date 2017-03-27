@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form - Django Style</title>
+
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'surveys/css/style.css' %}">
+
+  </head>
+  <body>
+    <h1>Fill out the following survey!</h1>
+    <div id="wraps">
+      <form action="/surveys/process" method="POST">
+        {% csrf_token %}
+        Your Name: <input type="text" name="name">
+
+        <div class="location">
+          <p>Dojo Location: </p>
+          <select name="location" class="location">
+            <option value="San Jose">San Jose</option>
+            <option value="Seattle">Seattle</option>
+            <option value="Dallas">Dallas</option>
+            <option value="Online">Online</options>
+          </select>
+        </div>
+
+        <div class="language">
+          <p>Favorite Language: </p>
+          <select name="language" class="language">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Ruby">Ruby</option>
+            <option value="C#">C# </option>
+          </select>
+        </div>
+
+        Comment (optional):
+        <textarea name="comment" rows="9" cols="80"></textarea><br>
+        <input id="push" type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>

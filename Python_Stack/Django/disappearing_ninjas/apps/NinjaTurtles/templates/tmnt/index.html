@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Disappearing Ninjas</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'ninjas/css/styles.css' %}">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Disappearing Ninjas</h1>
+      <ul>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/ninjas'>Teenage Mutant Ninja Turtles</a></li>
+        <li><a href='/ninjas/blue'>Leonardo</a></li>
+        <li><a href='/ninjas/red'>Raphael</a></li>
+        <li><a href='/ninjas/purple'>Donatello</a></li>
+        <li><a href='/ninjas/orange'>Michelangelo</a></li>
+        <li><a href='/ninjas/blah'>April... Not a Ninja</a></li>
+      </ul>
+
+      <h3>No Ninjas Here!</h3>
+  </body>
+</html>

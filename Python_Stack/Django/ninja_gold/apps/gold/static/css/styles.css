@@ -1,0 +1,30 @@
+#container{
+  margin: auto;
+  text-align: center;
+  width: 970px;
+}
+
+h1, h5{
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.areas{
+  border: 2px solid black;
+  display: inline-block;
+  height: 175px;
+  margin-right: 7px;
+  width: 225px;
+}
+
+#log{
+  height: 150px;
+  overflow-y: scroll;
+  border: 2px solid black;
+  text-align: left;
+  margin: auto;
+  width: 800px;
+}
