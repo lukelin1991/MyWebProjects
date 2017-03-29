@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Courses Assignment</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+  </head>
+  <body>
+    <div id="container">
+      <h1> Add a New Course</h1>
+      <div id="adding">
+        <form action="{% url 'courses:add' %}" method="post">
+          {% csrf_token %}
+          Name: <input type="text" name="name">
+          <br>
+          Description: <input type="text" name="description">
+          <input class="green" type="submit" value="add">
+        </form>
+      </div>
+
+      <div id="courses">
+        <h2>Courses</h2>
+        <table>
+          <tr>
+            <th>Course Name</th>
+            <th>Description</th>
+            <th>Date Added</th>
+            <th>Actions</th>
+          </tr>
+          {% for results in names %}
+          <tr>
+            <td>{{ results.name }}</td>
+            <td>{{ results.description }}</td>
+            <td>{{ results.created_at }}</td>
+            <td>
+              <form class="button" actions="{% url 'courses:destroy' id = results.id %}" method="post">
+                {% csrf_token %}
+                <input type="submit" value="remove">
+              </form>
+            </td>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

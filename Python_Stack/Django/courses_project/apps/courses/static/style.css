@@ -1,0 +1,32 @@
+#container{
+  width: 970px;
+}
+
+#adding{
+  text-align: center;
+  width: 300px;
+}
+
+#courses{
+    display: inline-block;
+    vertical-align: top;
+}
+table, th, tr, td{
+    border: solid 1px black;
+}
+table{
+    width: 700px;
+}
+.button{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.green{
+   border: solid 1px black;
+   background-color:lightgreen;
+}
+.red{
+   border: solid 1px black;
+   background-color:red;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Delete Section</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+  </head>
+  <body>
+    {% for results in item %}
+    <h2>Are you sure you want to delete the following course?</h2>
+    <p>Name: {{results.name}}</p>
+    <p>Description: {{results.description}}</p>
+    <form action="{% url 'courses:index' %}" method="post">
+      {% csrf_token %}
+      <input type="submit" value="No">
+    </form>
+    <form action="{% url 'courses:delete' itemnum = results.id %}" method="post">
+      {% csrf_token %}
+      <input class="red" type="submit" value="Yes! I want to delete this">
+    </form>
+    {% endfor %}
+  </body>
+</html>
