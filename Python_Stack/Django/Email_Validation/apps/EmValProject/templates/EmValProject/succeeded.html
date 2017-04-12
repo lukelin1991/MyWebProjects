@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Email Validation</title>
+  </head>
+  <body>
+
+    <h1>Your Email Address {{request.session.email}} is now registered! Congratulations!</h1>
+
+    <h2>Email Address:</h2>
+
+    {% for result in results %}
+    <p>{{result.email}}</p>
+    {% endfor %}
+
+  </body>
+</html>

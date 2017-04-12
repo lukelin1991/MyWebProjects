@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Email Validation</title>
+    {% load staticfiles %}
+  </head>
+  <body>
+
+    {% for message in messages %}
+    <p>{{message}}</p>
+    {% endfor %}
+
+    <form action="{% url 'my_add' %}" method="post">
+      {% csrf_token %}
+      Email Address: <input type="text" name="email">
+      <br>
+      <input type="submit" value="Submit">
+  </body>
+</html>

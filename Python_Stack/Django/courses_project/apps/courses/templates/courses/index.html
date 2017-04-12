@@ -34,7 +34,7 @@
             <td>{{ results.description }}</td>
             <td>{{ results.created_at }}</td>
             <td>
-              <form class="button" actions="{% url 'courses:destroy' id = results.id %}" method="post">
+              <form class="button" action="{% url 'courses:destroy' id=results.id %}" method="post">
                 {% csrf_token %}
                 <input type="submit" value="remove">
               </form>

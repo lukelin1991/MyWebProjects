@@ -15,7 +15,7 @@
       {% csrf_token %}
       <input type="submit" value="No">
     </form>
-    <form action="{% url 'courses:delete' itemnum = results.id %}" method="post">
+    <form action="{% url 'courses:delete' itemnum=results.id %}" method="post">
       {% csrf_token %}
       <input class="red" type="submit" value="Yes! I want to delete this">
     </form>
